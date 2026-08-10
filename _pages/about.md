@@ -6,7 +6,7 @@ subtitle: Associate Professor in Mechanical Engineering · Nantes Université ·
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: elodie_paquet_tessier.jpg
   image_circular: false
   more_info: >
     <p>Nantes Université</p>
