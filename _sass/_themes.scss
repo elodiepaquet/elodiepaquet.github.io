@@ -1,9 +1,6 @@
-// Thème personnalisé inspiré de l'identité visuelle CNRS
-
 :root {
   --global-bg-color: #ffffff;
   --global-code-bg-color: #f5f6f7;
-
   --global-text-color: #333333;
   --global-text-color-light: #666666;
 
@@ -16,6 +13,9 @@
 
   --global-divider-color: rgba(0, 84, 159, 0.15);
   --global-card-bg-color: #ffffff;
+}
 
-  --global-highlight-color: #ffd500;
+html[data-theme="dark"] {
+  --global-theme-color: #ffd500;
+  --global-hover-color: #ffffff;
 }
