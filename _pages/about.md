@@ -29,6 +29,18 @@ My research focuses on **robotic additive manufacturing**, **large-scale additiv
 
 I am particularly interested in the development of intelligent and adaptive manufacturing systems combining robotics, sensing, data-driven methods, and digital models.
 
+<div style="text-align: center; margin: 30px 0;">
+
+  <img src="/assets/img/figure1.png"
+       alt="Overview of my research activities in robotic additive manufacturing"
+       style="width: 100%; max-width: 1100px; height: auto;">
+
+  <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">
+    <strong>Figure 1.</strong> Overview of my research activities in robotic additive manufacturing, process modelling, artificial intelligence, multi-physics monitoring and digital twins.
+  </p>
+
+</div>
+
 My current research activities include additive manufacturing for construction, WAAM, robotic extrusion, process monitoring, AI-based defect detection, and digital twins for manufacturing.
 
 I am also involved in research projects related to sustainable manufacturing, smart construction, and advanced robotic fabrication.
