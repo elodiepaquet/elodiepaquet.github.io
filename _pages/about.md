@@ -28,7 +28,6 @@ I am an Associate Professor in Mechanical Engineering at Nantes Université and 
 My research focuses on **robotic additive manufacturing**, **large-scale additive manufacturing**, **digital twins**, **artificial intelligence**, **computer vision**, and **multi-physics monitoring** for advanced manufacturing processes.
 
 I am particularly interested in the development of intelligent and adaptive manufacturing systems combining robotics, sensing, data-driven methods, and digital models.
-
 <div style="text-align: center; margin: 30px 0;">
 
   <img src="/assets/img/figure1.png"
@@ -40,7 +39,3 @@ I am particularly interested in the development of intelligent and adaptive manu
   </p>
 
 </div>
-
-My current research activities include additive manufacturing for construction, WAAM, robotic extrusion, process monitoring, AI-based defect detection, and digital twins for manufacturing.
-
-I am also involved in research projects related to sustainable manufacturing, smart construction, and advanced robotic fabrication.
