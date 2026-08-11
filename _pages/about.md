@@ -29,6 +29,13 @@ My research focuses on **robotic additive manufacturing**, **large-scale additiv
 
 I am particularly interested in the development of intelligent and adaptive manufacturing systems combining robotics, sensing, data-driven methods, and digital models.
 
-![Overview of my research activities](/assets/img/figure1.png)
-
-*Figure 1. Overview of my research activities in robotic additive manufacturing, process modelling, artificial intelligence, multi-physics monitoring and digital twins.*
+<div style="width: 65%; max-width: 700px; margin: 25px 0 15px 0;">
+  <img
+    src="/assets/img/figure1.png"
+    alt="Overview of my research activities"
+    style="width: 100%; height: auto; display: block;"
+  >
+  <p style="font-size: 0.82rem; color: #666; margin-top: 8px; line-height: 1.3;">
+    <strong>Figure 1.</strong> Overview of my research activities in robotic additive manufacturing, process modelling, artificial intelligence, multi-physics monitoring and digital twins.
+  </p>
+</div>
