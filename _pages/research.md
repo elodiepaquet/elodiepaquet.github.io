@@ -1,362 +1,462 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
+description: Research activities in robotic additive manufacturing, artificial intelligence, process monitoring and digital twins.
 nav: true
 nav_order: 2
 ---
 
-# Research
+<style>
+.research-intro {
+  max-width: 950px;
+  margin-bottom: 3rem;
+}
 
-My research focuses on **robotic and large-scale additive manufacturing**, with the objective of developing intelligent, adaptive and sustainable manufacturing systems combining robotics, process modelling, multi-physics sensing, artificial intelligence and digital twins.
+.research-axis {
+  margin: 3.5rem 0 4.5rem 0;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #d9e2ec;
+}
 
-\[
-\text{Robotics}
-+
-\text{Materials}
-+
-\text{Sensing}
-+
-\text{Models}
-+
-\text{Data}
-\longrightarrow
-\text{Adaptive Additive Manufacturing}
-\]
+.axis-number {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #00a1b2;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
 
-My research activities are structured around four complementary scientific axes.
+.research-axis h2 {
+  color: #003b71;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
 
----
+.research-image {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  margin: 1.8rem auto;
+  border-radius: 6px;
+}
 
-## 01 — Robotic & Large-Scale Additive Manufacturing
+.research-image-small {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1%;
+  border-radius: 6px;
+}
 
-*Robotics · Toolpath generation · Process control · Large-scale deposition*
+.research-equation {
+  background: #f7f9fb;
+  border-left: 4px solid #00a1b2;
+  padding: 1.2rem 1.5rem;
+  margin: 1.8rem 0;
+}
 
-This research axis addresses the development and control of robotic additive manufacturing processes at large scale, from robotic architectures and trajectory generation to process–material interactions and manufacturing performance.
+.variable-list {
+  font-size: 0.94rem;
+  line-height: 1.7;
+}
 
-Applications include **concrete and earth-based construction, WAAM, polymer/composite manufacturing and large-scale robotic fabrication**.
+.research-chain {
+  text-align: center;
+  font-weight: 600;
+  color: #003b71;
+  margin: 1.8rem 0;
+  padding: 1rem;
+  background: #f7f9fb;
+}
 
-### Related PhD project
+.project-tag {
+  display: inline-block;
+  border: 1px solid #00a1b2;
+  border-radius: 20px;
+  padding: 0.25rem 0.8rem;
+  margin: 0.2rem;
+  font-size: 0.85rem;
+  color: #003b71;
+}
 
-**Ali El Hage**  
-*Large-scale additive manufacturing for the mechanical, economic and environmental optimisation of immersed concrete structures*  
-**CIFRE PhD — Segula Engineering**  
-**GeM / LS2N**  
-Supervision: **Nordine Leklou · Philippe Poullain · Elodie Paquet**  
-2022–2025 — PhD defended in June 2025.
+.phd-card {
+  padding: 1.1rem 1.3rem;
+  margin: 1rem 0;
+  border-left: 3px solid #00a1b2;
+  background: #f8fafc;
+}
 
-The PhD investigated the potential of large-scale additive manufacturing for immersed concrete structures by combining mechanical, environmental and economic considerations with digital manufacturing approaches. :contentReference[oaicite:0]{index=0}
+@media (max-width: 700px) {
+  .research-image-small {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+</style>
 
----
+<div class="research-intro">
 
-## 02 — Artificial Intelligence, Computer Vision & Multi-Physics Monitoring
+My research focuses on the development of **intelligent, adaptive and data-driven manufacturing systems**, with a particular emphasis on robotic additive manufacturing.
 
-*Computer vision · Thermal imaging · Electrical signals · Sensors · Machine learning · Attention models*
+My work combines **robotics, process modelling, multi-physics sensing, computer vision, artificial intelligence and digital twins**, from material deposition to large-scale manufacturing and construction.
 
-This axis investigates the use of heterogeneous sensing and data-driven methods for **in-process monitoring, defect detection and quality prediction**.
+The research is structured around four complementary scientific axes.
 
-The objective is to transform raw multi-physics measurements into robust indicators that can be used for process understanding, prediction and, ultimately, closed-loop control.
-
-\[
-\mathbf{s}(t)
-\rightarrow
-\mathbf{f}(t)
-\rightarrow
-\widehat{q}(t)
-\rightarrow
-u(t)
-\]
-
-where:
-
-- \(\mathbf{s}(t)\) represents multi-physics sensor data,
-- \(\mathbf{f}(t)\) represents extracted features,
-- \(\widehat{q}(t)\) represents the estimated process-quality state,
-- \(u(t)\) represents a potential control action.
-
-### Related PhD projects
-
-**Sarra Oueslati**  
-*Prediction of WAAM process defects through in-process monitoring and Artificial Intelligence*  
-**IRT Jules Verne — PERFORM project**  
-**LS2N**  
-Supervision: **Mathieu Ritou · Farouk Belkadi · Elodie Paquet**  
-2022–2026 — PhD defended in January 2026.
-
-Her work combines electrical and thermal process data with machine-learning approaches for instability detection and quality prediction in WAAM. The thesis resulted in several scientific communications and an international journal publication in *Additive Manufacturing*. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
-
-**Yunfan Li**  
-*Monitoring and quality prediction of 3D printing of paste-based materials using Artificial Intelligence*  
-**ANR JCJC SmartAMP**  
-**LS2N**  
-Supervision: **Mathieu Ritou · Sébastien Levilly · Elodie Paquet**
-
-The PhD combines **computer vision, attention-based models and process data** for monitoring cementitious and earth-based additive manufacturing processes.
-
-The research aims to improve process robustness and quality prediction by combining image-based characterisation, artificial intelligence and process knowledge. :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
-
----
-
-## 03 — Digital Twins & Process Modelling
-
-*Physical process · Numerical models · Sensor data · Model updating · Prediction · Decision*
-
-This axis focuses on the development of digital representations capable of connecting experimental measurements, numerical models and process knowledge.
-
-\[
-\mathcal{P}(t)
-\xrightarrow{\text{sensing}}
-\mathcal{D}(t)
-\xrightarrow{\text{model}}
-\widehat{\mathcal{P}}(t)
-\xrightarrow{\text{decision}}
-u(t)
-\]
-
-with:
-
-- \(\mathcal{P}(t)\): physical manufacturing process,
-- \(\mathcal{D}(t)\): acquired process data,
-- \(\widehat{\mathcal{P}}(t)\): estimated or simulated process state,
-- \(u(t)\): decision or control action.
-
-The objective is to progressively move from **monitoring** toward **prediction, model updating and adaptive manufacturing**.
-
-Applications currently include:
-
-- metallic additive manufacturing and repair,
-- large-scale polymer and composite manufacturing,
-- paste-based additive manufacturing for construction.
-
-### Related PhD projects
-
-**Shaoxuan Liang**  
-*Design of a Digital Twin for monitoring and repair in robotic metal additive manufacturing*  
-**ANR PRCI SAMSARA + Labex IMAF**  
-**LS2N / GeM**  
-Supervision: **Mathieu Ritou · Matthieu Rauch · Elodie Paquet**
-
-The PhD combines simulation, sensor data and artificial intelligence for monitoring and repair of metallic components manufactured by robotic additive processes. :contentReference[oaicite:5]{index=5}
-
-**Brendan Chalvet**  
-*Design and robotic additive/subtractive manufacturing of large-scale recyclable thermoplastic moulds*  
-**CIFRE PhD — Heol Composites**  
-**GeM / LS2N**  
-Supervision: **Pascal Casari · Sébastien Le Loch · Elodie Paquet**
-
-The project investigates large-scale recyclable thermoplastic tooling and hybrid additive/subtractive robotic manufacturing for composite applications.
-
-The scientific objective is to better understand and model the interactions between **material, process, geometry and final part performance**, with the long-term objective of integrating these relationships into digital modelling and digital-twin approaches. :contentReference[oaicite:6]{index=6}
+</div>
 
 ---
 
-## 04 — Sustainable & Resource-Efficient Additive Construction
+<div class="research-axis">
 
-*Raw earth · Local resources · Low-carbon materials · Robotic construction · Constructive systems*
+<div class="axis-number">Research Axis 01</div>
 
-This axis investigates how robotic manufacturing can contribute to more sustainable construction by adapting manufacturing processes to **local, low-carbon and variable materials**.
+## Robotic & Large-Scale Additive Manufacturing
 
-The scientific challenge is not only to print a material but to understand the interactions between:
+<img src="/assets/img/research_robotic_am.jpg"
+     class="research-image"
+     alt="Robotic large-scale additive manufacturing">
 
-\[
-\text{Material State}
-\leftrightarrow
-\text{Process Parameters}
-\leftrightarrow
-\text{Geometry}
-\leftrightarrow
-\text{Structural Function}
-\]
+My research investigates **robot-based material deposition** and the development of manufacturing strategies for large-scale additive manufacturing.
 
-This approach combines material characterisation, process monitoring, robotic manufacturing and constructive design.
+The work covers paste-based materials, construction materials, polymers, composites and metallic additive manufacturing, with a particular interest in the coupling between **robot kinematics, deposition parameters, material behaviour and final geometry**.
 
-### Related PhD project
+The robotic trajectory can be represented by the Tool Centre Point state:
 
-**Lucile Sauvestre**  
-*Development of sustainable robotic construction principles based on earth materials*  
-**ANR JCJC SmartAMP / AMI Bâtisseur 2030**  
-**IRDL / LS2N**  
-Supervision: **Sébastien Garnier · Arnaud Perrot · Elodie Paquet**
+<div class="research-equation">
 
-The PhD focuses on the development of **robotised construction principles using earth-based materials**, from material behaviour and printability to the design of sustainable constructive systems.
+$$
+\mathbf{p}(t)
+=
+[x(t),y(t),z(t),\phi(t),\theta(t),\psi(t)]^T
+$$
 
-Associated research topics include:
+<div class="variable-list">
 
-- locally sourced earth materials,
-- process–material interaction,
-- robotic construction,
-- structural and constructive principles,
-- low-carbon manufacturing,
-- adaptation of the construction process to material variability.
+**Variables and metrics**
 
----
+- $x,y,z$ — Cartesian TCP position [mm]
+- $\phi,\theta,\psi$ — TCP orientation [rad or °]
+- $t$ — process time [s]
 
-# Ongoing Research Projects
+</div>
+</div>
 
-## ANR JCJC SmartAMP
+For extrusion-based additive manufacturing, the relationship between material flow and robot velocity provides a first-order estimate of the deposited cross-section:
 
-**Smart monitoring and Artificial Intelligence for Additive Manufacturing of paste-based materials**
+<div class="research-equation">
 
-**Role:** Principal Investigator  
-**Funding:** approximately **€362k**
+$$
+A_d(t) \simeq \frac{Q(t)}{v(t)}
+$$
 
-The project develops a multi-physics monitoring framework combining:
+<div class="variable-list">
 
-- RGB-D imaging,
-- thermal measurements,
-- force sensing,
-- material-flow information,
-- computer vision,
-- artificial intelligence,
-- process modelling,
-- digital twins.
+**Variables and metrics**
 
-The objective is to develop intelligent monitoring and prediction strategies for additive manufacturing processes involving paste-based materials.
+- $A_d$ — deposited cross-sectional area [mm²]
+- $Q$ — volumetric material flow rate [mm³·s⁻¹]
+- $v$ — printing velocity [mm·s⁻¹]
 
-SmartAMP also supports research on cementitious materials, earth-based materials and robotic additive construction. :contentReference[oaicite:7]{index=7}
+</div>
+</div>
 
----
+The scientific challenge is to understand how these process variables interact with material rheology and robotic motion to control **dimensional accuracy, deposition stability and manufacturing repeatability**.
 
-## Ecobrick 4.0
+<div class="research-chain">
+Robot trajectory → Material deposition → Process/material interaction → Geometry → Performance
+</div>
 
-**Pre-maturation project**  
-**Funding:** €50k
+</div>
 
-Ecobrick 4.0 focuses on the **robotisation and improvement of raw-earth brick laying**.
+<div class="research-axis">
 
-The project investigates closed-loop robotic control strategies applied to:
+<div class="axis-number">Research Axis 02</div>
 
-- **Cable-Driven Parallel Robots (CDPR)**,
-- serial robotic systems,
-- automated brick placement,
-- process monitoring and correction,
-- adaptation to material and geometrical variability.
+## In-situ Monitoring, Computer Vision & Artificial Intelligence
 
-The objective is to combine low-carbon construction materials with advanced robotic control strategies. :contentReference[oaicite:8]{index=8}
+<img src="/assets/img/research_smartamp.jpg"
+     class="research-image"
+     alt="SmartAMP AI-driven monitoring">
 
----
+<span class="project-tag">ANR JCJC SmartAMP</span>
+<span class="project-tag">Computer Vision</span>
+<span class="project-tag">Multi-Physics Monitoring</span>
+<span class="project-tag">Artificial Intelligence</span>
 
-## ITA — Inclusivité en Terre Additive
+A central part of my research concerns the development of **in-situ monitoring strategies for additive manufacturing**.
 
-**Pre-maturation project**  
-**Funding:** €50k
+The ANR JCJC **SmartAMP** project investigates the combination of multi-physics sensing, computer vision and artificial intelligence to characterize the manufacturing state during paste-based additive manufacturing.
 
-ITA investigates **additive manufacturing using locally sourced earth materials**.
+A multi-modal observation vector can be written as:
 
-The project focuses on the development of accessible, sustainable and locally adaptable robotic construction processes based on earth materials.
+<div class="research-equation">
 
-Research topics include:
+$$
+\mathbf{x}(t)
+=
+[T(t),F(t),Q(t),v(t),\mathbf{I}(t)]^T
+$$
 
-- local material characterisation,
-- printability,
-- process adaptation,
-- robotic extrusion,
-- low-carbon construction,
-- resource-efficient manufacturing. :contentReference[oaicite:9]{index=9}
+<div class="variable-list">
 
----
+**Variables and metrics**
 
-## ANR PRCI SAMSARA
+- $T$ — process/material temperature [°C]
+- $F$ — interaction or extrusion force [N]
+- $Q$ — material flow rate [kg·s⁻¹ or mm³·s⁻¹]
+- $v$ — printing velocity [mm·s⁻¹]
+- $\mathbf{I}$ — image data or extracted vision descriptors [px, intensity or dimensionless features]
+- $t$ — acquisition time [s]
 
-The SAMSARA project contributes to research on **digital twins, process monitoring and robotic metallic repair**.
+</div>
+</div>
 
-My research activities within the project focus particularly on the development of digital-twin approaches linking:
+The objective is to estimate the process state from heterogeneous and temporally evolving observations:
 
-\[
-\text{Sensors}
-+
-\text{Simulation}
-+
-\text{Process Models}
-+
-\text{Artificial Intelligence}
-\longrightarrow
-\text{Robotic Repair}
-\]
+<div class="research-equation">
 
-The project supports the PhD work of **Shaoxuan Liang** on digital twins for monitoring and repair in robotic metal additive manufacturing. :contentReference[oaicite:10]{index=10}
+$$
+\hat{\mathbf{s}}(t)
+=
+f_{\boldsymbol{\theta}}
+\left(
+\mathbf{x}_{t-k:t}
+\right)
+$$
+
+<div class="variable-list">
+
+**Variables and metrics**
+
+- $\hat{\mathbf{s}}(t)$ — estimated manufacturing/process state
+- $f_{\boldsymbol{\theta}}$ — data-driven or AI model
+- $\boldsymbol{\theta}$ — trainable model parameters
+- $\mathbf{x}_{t-k:t}$ — sequence of multi-modal observations
+- $k$ — temporal observation window [samples or s]
+- $t$ — current acquisition time [s]
+
+</div>
+</div>
+
+Computer vision is investigated for **interlayer detection, texture characterization, geometrical distortion measurement and defect identification**, while AI models are used for classification, state estimation and decision support.
+
+<div class="research-chain">
+Sensing → Data → Features → State estimation → Decision → Feedback
+</div>
+
+</div>
+
+<div class="research-axis">
+
+<div class="axis-number">Research Axis 03</div>
+
+## Process Modelling & Digital Twins
+
+<img src="/assets/img/research_digital_twin.png"
+     class="research-image"
+     alt="Digital twins and robotic additive manufacturing">
+
+My research on digital twins aims at establishing a continuous link between the **physical manufacturing process, experimental observations and numerical models**.
+
+Current applications include:
+
+- **metallic repair and WAAM** — ANR SAMSARA,
+- **polymer and composite additive manufacturing**,
+- **paste-based materials for construction**,
+- process monitoring and model updating.
+
+Model calibration can be formulated as an inverse problem:
+
+<div class="research-equation">
+
+$$
+\boldsymbol{\theta}^{*}
+=
+\underset{\boldsymbol{\theta}}{\operatorname{argmin}}
+\left\|
+\mathbf{y}_{\mathrm{exp}}
+-
+\mathbf{y}_{\mathrm{model}}(\boldsymbol{\theta})
+\right\|_2^2
+$$
+
+<div class="variable-list">
+
+**Variables and metrics**
+
+- $\boldsymbol{\theta}$ — vector of model parameters
+- $\boldsymbol{\theta}^{*}$ — identified/calibrated parameter vector
+- $\mathbf{y}_{\mathrm{exp}}$ — experimental observations
+- $\mathbf{y}_{\mathrm{model}}$ — numerical-model predictions
+- $\|\cdot\|_2^2$ — squared Euclidean discrepancy
+
+Depending on the process, $\mathbf{y}$ can contain temperature [°C], geometrical dimensions [mm], displacement [mm], force [N] or other experimentally measured quantities.
+
+</div>
+</div>
+
+The objective is to progressively update numerical representations using manufacturing data in order to improve **prediction, process understanding and ultimately adaptive control**.
+
+<div class="research-chain">
+Physical process → Sensors → Experimental data → Model calibration → Digital twin → Prediction & control
+</div>
+
+</div>
+
+<div class="research-axis">
+
+<div class="axis-number">Research Axis 04</div>
+
+## Sustainable & Robotic Construction
+
+<img src="/assets/img/research_ecobrick.jpg"
+     class="research-image-small"
+     alt="Ecobrick robotic construction">
+
+<img src="/assets/img/research_earth_dome.jpg"
+     class="research-image-small"
+     alt="Additive manufacturing of earth-based construction">
+
+My research also investigates how robotic manufacturing can contribute to more **resource-efficient and locally adapted construction processes**.
+
+### Ecobrick 4.0
+
+**Ecobrick 4.0** investigates the robotisation and improvement of raw-earth brick placement using both **Cable-Driven Parallel Robots (CDPR)** and serial robotic systems, including sensor-based feedback and control strategies.
+
+### ITA — Inclusivité en Terre Additive
+
+The **ITA** project focuses on additive manufacturing using **locally sourced earth materials**, connecting material characterization, extrusion behaviour, robotic deposition and construction-scale applications.
+
+### SmartAMP
+
+The **ANR JCJC SmartAMP** project complements this work through intelligent monitoring of paste-based additive manufacturing processes.
+
+A multi-criteria representation of manufacturing performance can be written as:
+
+<div class="research-equation">
+
+$$
+\mathbf{P}
+=
+[G,M,E,R]^T
+$$
+
+<div class="variable-list">
+
+**Performance indicators**
+
+- $G$ — geometrical performance [mm or % depending on indicator]
+- $M$ — mechanical performance [MPa]
+- $E$ — environmental impact [kg CO₂-eq]
+- $R$ — material/resource consumption [kg or kg·m⁻²]
+
+$\mathbf{P}$ represents a **multi-criteria performance vector** rather than a universal scalar performance indicator.
+
+</div>
+</div>
+
+<div class="research-chain">
+Local material → Characterization → Robotic fabrication → Monitoring → Structure → Performance
+</div>
+
+</div>
 
 ---
 
 # PhD Supervision
 
-My doctoral supervision activities are directly connected to my four research axes and combine academic, industrial and interdisciplinary collaborations.
+My research activities are closely connected to doctoral training at the interface between **robotics, additive manufacturing, materials, monitoring and digital modelling**.
 
-## Ongoing
+## Current PhD candidates
 
-**Yunfan Li**  
-*Artificial Intelligence · Computer Vision · Paste-based Additive Manufacturing*  
-ANR JCJC SmartAMP  
-LS2N  
-**Mathieu Ritou · Sébastien Levilly · Elodie Paquet**
+<div class="phd-card">
 
----
+### Yunfan Li
 
-**Shaoxuan Liang**  
-*Digital Twin · WAAM · Robotic Metal Repair*  
-ANR PRCI SAMSARA  
-LS2N / GeM  
-**Mathieu Ritou · Matthieu Rauch · Elodie Paquet**
+**Research topic:** Computer vision and intelligent monitoring for additive manufacturing.
 
----
+**Laboratory:** LS2N — Nantes Université
 
-**Brendan Chalvet**  
-*Large-scale Polymer & Composite Manufacturing · Digital Twin · Hybrid Manufacturing*  
-CIFRE Heol Composites  
-GeM / LS2N  
-**Pascal Casari · Sébastien Le Loch · Elodie Paquet**
+**Supervision:** Mathieu Ritou · Sébastien Levilly · Elodie Paquet
 
----
+</div>
 
-**Lucile Sauvestre**  
-*Earth-based Materials · Robotic Construction · Sustainable Constructive Systems*  
-ANR JCJC SmartAMP / AMI Bâtisseur 2030  
-IRDL / LS2N  
-**Sébastien Garnier · Arnaud Perrot · Elodie Paquet**
+<div class="phd-card">
 
----
+### Lucile Sauvestre
 
-## Completed
+**Research topic:** Development of robotized construction principles based on earth materials.
 
-**Sarra Oueslati · 2022–2026**  
-*WAAM · Multi-Physics Monitoring · Artificial Intelligence*  
-IRT Jules Verne — PERFORM  
-LS2N  
-**Mathieu Ritou · Farouk Belkadi · Elodie Paquet**
+**Projects:** ANR JCJC SmartAMP · AMI Bâtisseur 2030
 
----
+**Laboratories:** IRDL · LS2N
 
-**Ali El Hage · 2022–2025**  
-*Large-scale Concrete Additive Manufacturing · Digital Manufacturing · Sustainable Structures*  
-CIFRE Segula Engineering  
-GeM / LS2N  
-**Nordine Leklou · Philippe Poullain · Elodie Paquet**
+**Supervision:** Sébastien Garnier · Arnaud Perrot · Elodie Paquet
+
+</div>
+
+<div class="phd-card">
+
+### Brendan Chalvet
+
+**Research topic:** Robotic additive manufacturing, composite tooling and digital twins.
+
+**Funding:** CIFRE — 5heol
+
+**Laboratories:** GeM · LS2N
+
+**Supervision:** Pascal Casari · Sébastien Le Loch · Elodie Paquet
+
+</div>
+
+<div class="phd-card">
+
+### Shaoxuan Liang
+
+**Research topic:** Digital twins and modelling for additive manufacturing.
+
+**Laboratories:** LS2N · GeM
+
+**Supervision:** Mathieu Ritou · Matthieu Rauch · Elodie Paquet
+
+</div>
+
+## Completed PhDs
+
+<div class="phd-card">
+
+### Ali El Hage
+
+**CIFRE PhD — SEGULA Technologies**
+
+Research on digital manufacturing chains and robotic additive manufacturing for construction.
+
+**Laboratories:** GeM · LS2N
+
+**Supervision:** Nordine Leklou · Philippe Poullain · Elodie Paquet
+
+</div>
+
+<div class="phd-card">
+
+### Sarra Oueslati
+
+**IRT PERFORM PhD**
+
+Research on monitoring and characterization of Wire Arc Additive Manufacturing (WAAM).
+
+**Supervision:** Mathieu Ritou · Farouk Belkadi · Elodie Paquet
+
+</div>
 
 ---
 
 # Open Science & Research Data
 
-Open science and reproducibility are integral parts of my research activities.
+Open and reproducible research is an important component of these activities.
 
-Experimental datasets produced within the ROMAS team are progressively made available through **Zenodo**, including datasets related to:
+Research datasets, experimental data and associated scientific resources are progressively made available through **Zenodo**, in connection with publications and research projects.
 
-- additive manufacturing,
-- computer vision,
-- artificial intelligence,
-- process monitoring,
-- multi-physics sensing,
-- robotic manufacturing.
-
-\[
-\text{Experiment}
-\rightarrow
-\text{Data}
-\rightarrow
-\text{Open Repository}
-\rightarrow
-\text{Reproducibility}
-\]
-
-**[Explore the ROMAS – LS2N research datasets on Zenodo](https://zenodo.org/communities/romas_ls2n_umr6004)**
-
-The objective is to improve the **traceability, accessibility and reproducibility** of experimental research in robotic additive manufacturing. :contentReference[oaicite:11]{index=11}
+→ **Research data on Zenodo**
