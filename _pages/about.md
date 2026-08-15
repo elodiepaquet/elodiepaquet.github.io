@@ -37,5 +37,12 @@ I am particularly interested in the development of intelligent and adaptive manu
   >
   <p style="font-size: 0.82rem; color: #666; margin-top: 8px; line-height: 1.3;">
     <strong>Figure 1.</strong> Overview of my research activities in robotic additive manufacturing, process modelling, artificial intelligence, multi-physics monitoring and digital twins.
+    <!-- GoatCounter analytics -->
+<script
+  data-goatcounter="https://elodiepaquet.goatcounter.com/count"
+  async
+  src="https://gc.zgo.at/count.js"
+></script>
+    
   </p>
 </div>
