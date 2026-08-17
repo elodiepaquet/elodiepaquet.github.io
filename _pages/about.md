@@ -20,7 +20,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 4
 ---
 
 My research focuses on **robotic additive manufacturing**, **large-scale additive manufacturing**, **digital twins**, **artificial intelligence**, **computer vision**, and **multi-physics monitoring** for advanced manufacturing processes.
