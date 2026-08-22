@@ -1,189 +1,371 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Elodie Paquet Tessier
+  label: Associate Professor in Mechanical Engineering
+  email: elodie.paquet@ls2n.fr
+  location: Nantes, France
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+
+  summary: >
+    Associate Professor in Mechanical Engineering at Nantes Université
+    and researcher at LS2N UMR CNRS 6004. My research and teaching activities
+    lie at the intersection of robotic additive manufacturing, large-scale
+    manufacturing, artificial intelligence, computer vision, process monitoring,
+    digital twins and sustainable construction.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: paquet-elodie
+    - network: ORCID
+      username: 0000-0002-0956-801X
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Nantes
+    region: Pays de la Loire
+    countryCode: FR
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Education:
+      - institution: Nantes Université
+        location: Nantes, France
+        area: Mechanical Engineering and Automation
+        studyType: PhD
+        end_date: 2020
         highlights:
-          - Description 1.
-          - Description 2.
+          - Research in robotic additive manufacturing and advanced manufacturing processes.
+
+      - institution: CESI
+        location: Saint-Nazaire, France
+        area: Engineering
+        studyType: Engineering Degree
+        highlights:
+          - Engineering curriculum combining academic training and industrial experience.
+          - Six-month research stay at the University of Cambridge, United Kingdom.
+
+      - institution: Université de Nantes - IUT de Nantes
+        location: Nantes, France
+        area: Mechanical and Manufacturing Engineering
+        studyType: DUT GMP - Génie Mécanique et Productique
+        start_date: 2009
+        end_date: 2011
+        highlights:
+          - Two-year university degree in mechanical and manufacturing engineering.
+
+      - institution: Lycée Livet
+        location: Nantes, France
+        studyType: Baccalauréat
+        end_date: 2009
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Nantes Université - IUT de Nantes
+        position: Associate Professor in Mechanical Engineering
+        location: Nantes, France
+        start_date: 2021
+        summary: >
+          Teaching and research activities in mechanical engineering,
+          manufacturing, robotics, additive manufacturing, artificial intelligence,
+          process monitoring and digital twins.
         highlights:
-          - Relativity
-          - Description 2.
+          - Researcher at LS2N UMR CNRS 6004 - RoMaS team.
+          - CNU Section 60 - Mechanical Engineering.
+          - Research focused on robotic and large-scale additive manufacturing.
+          - Development of experimental, data-driven and model-based approaches for advanced manufacturing.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Nantes Université
+        position: Director of Studies - Master ITI
+        location: Nantes, France
+        start_date: 2024
+        summary: >
+          Academic coordination of the Master ITI programme.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Curriculum coordination.
+          - Coordination of academic and industrial lecturers.
+          - Student support and programme development.
+          - Development of interdisciplinary workshops and project-based learning.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    Research Projects:
+      - name: ANR JCJC SmartAMP
+        summary: >
+          Smart monitoring and artificial intelligence for additive manufacturing
+          of paste-based materials.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Principal Investigator
+          - 2024-2029
+          - Approx. EUR 362k
+          - Multi-physics monitoring
+          - Artificial intelligence and computer vision
+          - Digital models and adaptive manufacturing
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - name: Ecobrick 4.0
+        summary: >
+          Robotisation and adaptive control of raw-earth brick construction using
+          Cable-Driven Parallel Robots and serial robots.
+        highlights:
+          - Scientific Lead
+          - Pre-maturation project
+          - EUR 50k
+          - Robotic construction
+          - Raw-earth materials
+          - Adaptive robotic control
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - name: ITA - Inclusivité en Terre Additive
+        summary: >
+          Robotic additive manufacturing using locally sourced earth materials
+          for sustainable construction.
+        highlights:
+          - Scientific Lead
+          - Pre-maturation project
+          - EUR 50k
+          - Local earth materials
+          - Additive construction
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - name: PEPR Recyclage - DEFI2R
+        summary: >
+          Collaborative research activities related to recycling and advanced
+          manufacturing.
+        highlights:
+          - Ongoing collaborative project
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - name: ROBOBone
+        summary: >
+          Collaborative research project involving robotic additive manufacturing
+          of cementitious materials.
+        highlights:
+          - Ongoing collaborative project
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - name: ANR SAMSARA
+        summary: >
+          Research activities related to digital twins and robotic metallic repair.
+        highlights:
+          - Ongoing collaborative project
+
+    PhD Supervision:
+      - name: Yunfan Li
+        summary: >
+          Computer vision and artificial intelligence for monitoring additive
+          manufacturing processes.
+        highlights:
+          - LS2N
+          - Supervision: Mathieu Ritou, Sebastien Levilly, Elodie Paquet
+
+      - name: Lucile Sauvestre
+        summary: >
+          Development of robotised construction principles based on earth materials.
+        highlights:
+          - ANR JCJC SmartAMP / AMI Bâtisseur 2030
+          - IRDL / LS2N
+          - Supervision: Sebastien Garnier, Arnaud Perrot, Elodie Paquet
+
+      - name: Brendan Chalvet
+        summary: >
+          Robotic additive manufacturing, composite tooling and digital twins.
+        highlights:
+          - CIFRE Heol Composites
+          - GeM / LS2N
+          - Supervision: Pascal Casari, Sebastien Le Loch, Elodie Paquet
+
+      - name: Shaoxuan Liang
+        summary: >
+          Digital twins and modelling for additive manufacturing and robotic
+          metallic repair.
+        highlights:
+          - LS2N / GeM
+          - Supervision: Mathieu Ritou, Matthieu Rauch, Elodie Paquet
+
+      - name: Sarra Oueslati
+        summary: >
+          Monitoring and characterisation of Wire Arc Additive Manufacturing
+          processes using data-driven approaches.
+        highlights:
+          - PhD completed in 2026
+          - IRT Jules Verne - PERFORM
+          - Supervision: Mathieu Ritou, Farouk Belkadi, Elodie Paquet
+
+      - name: Ali El Hage
+        summary: >
+          Digital manufacturing chains and large-scale additive manufacturing
+          for concrete construction.
+        highlights:
+          - PhD completed in 2025
+          - CIFRE SEGULA
+          - GeM / LS2N
+          - Supervision: Nordine Leklou, Philippe Poullain, Elodie Paquet
+
+    Teaching:
+      - name: BUT GMP - Mechanical and Manufacturing Engineering
+        summary: >
+          Teaching at IUT de Nantes in mechanical engineering, manufacturing,
+          production, design, metrology and innovation.
+        highlights:
+          - Manufacturing methods
+          - Mechanical design
+          - Production
+          - Innovation
+          - Experimental and project-based learning
+
+      - name: Master ITI
+        summary: >
+          Teaching and academic coordination in advanced manufacturing,
+          additive manufacturing and robotics.
+        highlights:
+          - Director of Studies since 2024
+          - Advanced Additive Manufacturing
+          - Advanced Robotic Programming
+          - Interdisciplinary workshops
+          - Research and industry-oriented teaching
+
+      - name: Professional Bachelor's Degree - Le Numérique sur les Chantiers du BTP
+        summary: >
+          Teaching at the interface between digital technologies,
+          automation and the digital transformation of construction.
+
+      - name: DSAA - Matériaux et Conception d'Espaces Durables
+        summary: >
+          Teaching contribution at Lycée Livet, Nantes, at the interface
+          between engineering, materials, sustainable construction,
+          digital manufacturing and design.
+
+      - name: DN MADE
+        summary: >
+          Participation as a university teacher-researcher representative
+          in DN MADE academic bodies, contributing to interactions between
+          design education, higher education and academic research.
+
+    Academic Responsibilities:
+      - name: Master ITI
+        summary: >
+          Director of Studies at Nantes Université.
+        highlights:
+          - Since 2024
+          - Academic and pedagogical coordination
+
+      - name: Nantes Université Mentoring Programme
+        summary: >
+          Co-coordinator of the university mentoring programme for newly
+          appointed Associate Professors with Mathilde Lancelot.
+        highlights:
+          - University-wide academic mentoring
+          - Coordination across Nantes Université
+
+      - name: MAD4AM Cluster
+        summary: >
+          Co-scientific lead of the additive manufacturing cluster.
+        highlights:
+          - Scientific animation of the additive manufacturing community
+          - Organisation of several events per year
+          - Organisation of the Midis de la Fabrication Additive since 2025
+          - Approximately 25 to 50 participants per session
+
+      - name: France Additive
+        summary: >
+          Elected Board Member of the French additive manufacturing association.
+        highlights:
+          - Since 2025
+          - Contribution to the national additive manufacturing community
+          - Involvement in the organisation of the France Additive Forum 2027 in Nantes
+
+      - name: LS2N Laboratory Council
+        summary: >
+          Elected member contributing to the scientific and collective life
+          of LS2N.
+
+      - name: LS2N Prevention
+        summary: >
+          Prevention officer for the LS2N activities located at IUT de Nantes.
+
+    Scientific Engagement:
+      - name: ANR Scientific Evaluation
+        summary: >
+          Participation in national scientific evaluation activities.
+        highlights:
+          - ANR CES10
+          - ANR CES51
+
+      - name: RILEM
+        summary: >
+          Participation in international scientific technical committees.
+        highlights:
+          - RILEM TC 320-PEM
+          - RILEM TC 315-DCS
+
+      - name: Scientific Reviewing
+        summary: >
+          Peer-review activities for international journals and scientific
+          conferences in additive manufacturing, robotics and advanced manufacturing.
+
+      - name: Scientific Events
+        summary: >
+          Organisation and co-organisation of scientific events connecting
+          academia, industry and the additive manufacturing community.
+        highlights:
+          - Midis de la Fabrication Additive
+          - Scientific workshops
+          - Conferences and scientific meetings
+
+    Selected Past Projects:
+      - name: H2020 COROMA
+        summary: >
+          European research project related to cognitive robotics and
+          flexible manufacturing.
+
+      - name: Coperbot
+        summary: >
+          Research project dedicated to robotic repair of composite components.
+
+      - name: Batiprint - Yhnova
+        summary: >
+          Contribution to the maturation of large-scale robotic additive
+          manufacturing technologies for construction.
+
+    Awards and Outreach:
+      - title: La Science Taille XX Elles
+        date: 2026
+        awarder: CNRS Pays de la Loire
+        summary: >
+          Ambassador contributing to the visibility of women scientists
+          and careers in science and engineering.
+
+      - title: Femmes dans la Construction
+        date: 2019
+        summary: >
+          Recognition related to women involved in the construction sector
+          and activities at the interface between engineering,
+          research and construction.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Robotic Additive Manufacturing
+        level: Advanced
+        keywords: >
+          Large-scale additive manufacturing, robotic extrusion,
+          WAAM, CDPR, robotic construction
+
+      - name: Artificial Intelligence and Computer Vision
+        level: Advanced
+        keywords: >
+          Deep learning, computer vision, texture analysis,
+          process monitoring, data-driven manufacturing
+
+      - name: Multi-Physics Monitoring
+        level: Advanced
+        keywords: >
+          Vision, thermal monitoring, force measurement,
+          process data, sensor integration
+
+      - name: Digital Twins and Process Modelling
+        level: Advanced
+        keywords: >
+          Digital twins, process modelling, model updating,
+          data integration, manufacturing monitoring
+
+      - name: Sustainable Additive Construction
+        level: Advanced
+        keywords: >
+          Raw earth, local materials, additive construction,
+          robotic construction, low-carbon manufacturing
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: French
+        summary: Native speaker
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: Professional working proficiency
